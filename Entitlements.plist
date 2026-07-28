@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Deliberately no com.apple.security.app-sandbox key: this app is
+         distributed directly (notarized, outside the App Store), so it
+         doesn't need security-scoped bookmarks for watched-folder access
+         or sandbox exceptions for CoreAudio HAL device access. -->
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <false/>
+</dict>
+</plist>
