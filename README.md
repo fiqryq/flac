@@ -1,4 +1,4 @@
-# FlacPlayer
+# Flac
 
 A macOS app for playing FLAC and other hi-res audio, built with SwiftUI. The
 whole point is bit-perfect playback — audio goes straight from the decoder
