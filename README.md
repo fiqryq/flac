@@ -5,6 +5,8 @@ whole point is bit-perfect playback — audio goes straight from the decoder
 to the output device with no resampling, no mixer graph, and nothing
 touching the signal unless you turn it on yourself.
 
+<img width="1271" height="791" alt="CleanShot 2026-07-28 at 17 07 34" src="https://github.com/user-attachments/assets/5467a9be-d3bd-4cce-9b22-b93a4cd9273a" />
+
 ## What it does
 
 Plays FLAC, ALAC (`.m4a`), PCM (`.wav`/`.aiff`), and DSD (`.dsf`, over DoP).
